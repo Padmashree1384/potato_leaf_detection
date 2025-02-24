@@ -10,7 +10,7 @@ url="https://drive.google.com/file/d/1NLj9MTHYH5z3N6d5YaXfMEG3qWmRyPNH/view?usp=
 
 # Load the trained model
 model_path = "trained_plant_disease_model.keras"
-model = tf.keras.models.load_model(model_path)
+
 
 if not os.path.exists(model_path):
     st.warning("Downloading model from Google Drive...")
