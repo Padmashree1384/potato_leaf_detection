@@ -8,7 +8,7 @@ import io
 
 # Model file URL and path
 file_id = "1NLj9MTHYH5z3N6d5YaXfMEG3qWmRyPNH"
-url = f'https://drive.google.com/uc?id={file_id}'  # Direct download URL
+url = f'https://drive.google.com/file/d/1NLj9MTHYH5z3N6d5YaXfMEG3qWmRyPNH/view?usp=sharing'  # Direct download URL
 
 model_path = "trained_plant_disease_model.keras"
 
