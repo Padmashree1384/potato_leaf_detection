@@ -16,6 +16,8 @@ if not os.path.exists(model_path):
     st.warning("Downloading model from Google Drive...")
     gdown.download(url, model_path,quiet=False)
 
+model = tf.keras.models.load_model(model_path)
+
 # Define class labels for potato leaf diseases
 class_labels = ['Potato_Early_blight', 'Potato_Late_blight', 'Potato_healthy']
 
